@@ -1,0 +1,55 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+}
+
+html {
+    width: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 0px;
+        background-color: rgba(255,0,0,0);    
+        color: white;
+        -webkit-transition: background .1s ease-in-out,padding .1s ease-in-out;
+        -moz-transition: background .1s ease-in-out,padding .1s ease-in-out;
+        transition: background .1s ease-in-out,padding .1s ease-in-out;
+        
+    }
+
+    .top-nav-collapse {
+       padding: 0;
+                color: black;
+
+
+    }
+    
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: rgba(255,0,0,0);  
+    color: white;
+    }
+}
+
+.navbar-default {
+    font-size: 17px;
+}
+
+
+.navbar-default {
+    border: 0;
+}
+
+/*active*/
+
+.navbar .navbar-default .navbar-fixed-top{
+    padding: 0;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: black;
+}
